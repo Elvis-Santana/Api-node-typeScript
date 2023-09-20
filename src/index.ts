@@ -1,0 +1,6 @@
+import { server } from './server/Server';
+
+
+const port =process.env.PORT||8080;
+
+server.listen(port,()=>console.log(`rodando em http://localhost:${port}`));
