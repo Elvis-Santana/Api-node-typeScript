@@ -111,8 +111,7 @@
     "./jest.config.ts",
     "./node_modules",
     "./tests",
-    "./build"
-    
+    "node_modules","**/*.spec.ts"
 
   ]
 }
