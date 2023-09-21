@@ -6,7 +6,7 @@ import {CidadesController} from '../controller';
 const router =  Router();
 
 router.get('/',(req:Request,res:Response)=>{
-  return res.send('Ola ,Dev');
+  return res.json({Ola:"hello"})
 });
 
 
